@@ -1,0 +1,19 @@
+app:
+  name: 'apps'
+  version: '1.0.0'
+
+http:
+  port: '8000'
+
+logger:
+  level: 'debug'
+
+postgres:
+  pool_max: 2
+  pg_url: 'postgres://user:password@localhost:5432/db'
+
+rmq:
+  rmq_url: 'amqp://guest:guest@localhost:5672/'
+
+jwt:
+  secret_key: '123456789'
